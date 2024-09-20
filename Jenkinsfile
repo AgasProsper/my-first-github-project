@@ -7,17 +7,7 @@ pipeline {
         maven "Maven"
     }
 
-    stages {
-        stage ("Testing stage") {
-            steps {
-                echo "No test for now"
-            }
-        }
-        stage ("Build Stage") {
-            steps {
-                sh "mvn clean package"
-            }
-        }
+September's discounts are nearly yours. Be ready for 70% off Shared Hosting, 62% off EasyWP, and 33% off Private Email. Prepare to pack and move for less.
 
         stage ("Build DockerImage") {
             steps {
